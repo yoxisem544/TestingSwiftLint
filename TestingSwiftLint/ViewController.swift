@@ -9,31 +9,71 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.testingArea()
+
+        testingArea() // ya
+    }
+
+    func hello() {
+        let ccc = [
+            1, 2,
+            3, 4,
+        ]
     }
 
     func testingArea() {
-//        func a(b: Int, c: Int, d: Int, e: Int, f: Int, g: Int, k: Int, z: Int) {
+        //        func a(b: Int, c: Int, d: Int, e: Int, f: Int, g: Int, k: Int, z: Int) {
 //
-//        }
+        //        }
 //
-//let a = [
-//    1,
-//    2,
-//    3,
-//    4,
-//    ].map({ $0 })
+        // let a = [
+        //    1,
+        //    2,
+        //    3,
+        //    4,
+        //    ].map({ $0 })
     }
 
+    func yaaaa() {}
 }
 
-class UID<T> {
+extension ViewController {
+    func yaaa() {
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+    }
 
+    func yaaa2() {
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+        print("")
+    }
 }
+
+class UID<T> {}
 
 class Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
     var a12345678901234567890123456789012341111111: Int = 0
@@ -43,14 +83,34 @@ class Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
     let GGGAPIKey: String = "soidjoisjado"
     let id: String = ""
     let mid: String = ""
-    func testestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestestest() {
+    func testestestestestestest() {
         print("1")
         print("1")
         print("1")
         print("1")
         print("1")
         print("1")
-//        if true { if true { if true { if true { if true { if true {  } } } } } }
+        if true {
+            if true {
+                if true {
+                    if true {
+                        if true {
+                            if true {}
+                        }
+                    }
+                }
+            }
+        } else if true {
+            if true {
+                if true {
+                    if true {
+                        if true {
+                            if true {}
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -58,6 +118,25 @@ class iPhone {
     var aaaa: String
 
     init() {
-        aaaa = "uiiu"
+        self.aaaa = "uiiu"
     }
 }
+
+enum Hello {
+    case abc, ccd
+
+    var name: String {
+        [1, 2, 3, 4].map { $0 }.map { $0 }.map { $0 }.map { $0 }
+        DispatchQueue.main.async {}
+        switch self {
+        case .abc: return ""
+        case .ccd: return ""
+        }
+    }
+}
+
+func hello(
+    world1 _: String, world2 _: String,
+    world3 _: String,
+    world4 _: String
+) {}

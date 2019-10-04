@@ -6,11 +6,13 @@
 //  Copyright © 2019 kkday. All rights reserved.
 //
 
-import XCTest
 @testable import TestingSwiftLint
 
-class TestingSwiftLintTests: XCTestCase {
+import Foundation
+import UIKit
+import XCTest
 
+class TestingSwiftLintTests: XCTestCase {
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.
     }
@@ -30,5 +32,4 @@ class TestingSwiftLintTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-
 }

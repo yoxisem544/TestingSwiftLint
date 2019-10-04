@@ -1,8 +1,12 @@
 # options
---self remove # redundantSelf
+--self init-only # redundantSelf
 --importgrouping testable-bottom # sortedImports
 --commas always # trailingCommas
 --trimwhitespace always # trailingSpace
+--indent 4 # indent
+--wraparguments before-first # wrapArguments
+--wrapcollections before-first # wrapArguments
+--closingparen balanced # wrapArguments
 
 # rules
---rules redundantParens,redundantSelf,sortedImports,trailingCommas,trailingSpace
+--rules andOperator,anyObjectProtocol,blankLinesAroundMark,blankLinesAtEndOfScope,blankLinesAtStartOfScope,blankLinesBetweenScopes,braces,consecutiveBlankLines,consecutiveSpaces,duplicateImports,elseOnSameLine,emptyBraces,hoistPatternLet,indent,leadingDelimiters,redundantGet,redundantLet,redundantLetError,redundantNilInit,redundantObjc,redundantParens,redundantPattern,redundantSelf,redundantVoidReturnType,sortedImports,spaceAroundBraces,spaceAroundBrackets,spaceAroundComments,spaceAroundGenerics,spaceAroundOperators,spaceAroundParens,spaceInsideBraces,spaceInsideBrackets,spaceInsideComments,spaceInsideGenerics,specifiers,strongifiedSelf,todos,trailingCommas,trailingSpace,typeSugar,void,wrapArguments

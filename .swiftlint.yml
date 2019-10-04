@@ -1,4 +1,11 @@
+excluded:
+  - Pods
+  - Carthage
+  - vendor # for rudy gem installed path
+  - fastlane
+
 whitelist_rules:
+  - closure_body_length
   - closure_spacing
   - colon
   - cyclomatic_complexity
@@ -31,10 +38,6 @@ whitelist_rules:
   - void_return
   - custom_rules
 
-excluded:
-  - Pods
-  - Carthage
-
 # Rule detail settings
 line_length:
   warning: 80
@@ -44,8 +47,8 @@ line_length:
   ignores_urls: true
 
 function_body_length:
-  warning: 100
-  error: 200
+  warning: 70
+  error: 140
 
 function_parameter_count:
   warning: 4
@@ -53,8 +56,8 @@ function_parameter_count:
 
 # Limit class lines between 400~600, class exceed this limit should consider separate into smaller classed
 type_body_length:
-  warning: 400
-  error: 600
+  warning: 4
+  error: 20
 
 # Type name like class or struct should be 3~120
 type_name:
@@ -87,10 +90,14 @@ identifier_name:
     - id
     - URL
 
+closure_body_length:
+  warning: 40
+  error: 80
+
 colon:
   apply_to_dictionaries: false
 
-indentation: 2
+indentation: 4
 
 custom_rules:
   no_objcMembers:
