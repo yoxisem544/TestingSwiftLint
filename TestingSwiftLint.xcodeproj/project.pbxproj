@@ -176,6 +176,7 @@
 			buildConfigurationList = 63C1F8802345E2A300D533C3 /* Build configuration list for PBXNativeTarget "TestingSwiftLint" */;
 			buildPhases = (
 				BE059B2600C279CA290F3882 /* [CP] Check Pods Manifest.lock */,
+				63245A0C2346E39E00E41AB1 /* Swift Format */,
 				63C1F8522345E2A100D533C3 /* Sources */,
 				63C1F8532345E2A100D533C3 /* Frameworks */,
 				63C1F8542345E2A100D533C3 /* Resources */,
@@ -299,6 +300,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		63245A0C2346E39E00E41AB1 /* Swift Format */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Format";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\nif which swiftformat >/dev/null; then\n  # swiftformat .\n  echo \"YA\"\nelse\n  echo \"warning: SwiftFormat not installed, download from https://github.com/nicklockwood/SwiftFormat\"\nfi\n";
+		};
 		63C1F8892345EFC400D533C3 /* SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -13,19 +13,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        self.testingArea()
     }
 
     func testingArea() {
-        func a(b: Int, c: Int, d: Int, e: Int, f: Int, g: Int, k: Int, z: Int) {
-            
-        }
-
-        let a = [
-            1,
-            2,
-            3,
-            4,
-            ].map({ $0 })
+//        func a(b: Int, c: Int, d: Int, e: Int, f: Int, g: Int, k: Int, z: Int) {
+//
+//        }
+//
+//let a = [
+//    1,
+//    2,
+//    3,
+//    4,
+//    ].map({ $0 })
     }
 
 }
@@ -35,7 +36,7 @@ class UID<T> {
 }
 
 class Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
-    var a123456789012345678901234567890123456789011111111111: Int = 0
+    var a12345678901234567890123456789012341111111: Int = 0
     var A2: Int = 0
     var a3: Int = 0
     var a4: Int = 0
@@ -57,6 +58,6 @@ class iPhone {
     var aaaa: String
 
     init() {
-        self.aaaa = "uiiu"
+        aaaa = "uiiu"
     }
 }
