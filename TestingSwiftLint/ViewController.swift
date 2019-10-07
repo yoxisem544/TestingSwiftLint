@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     func hello() {
         let ccc = [
             1, 2,
-            3, 4,
+            3, 4, 5
         ]
     }
 
