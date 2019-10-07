@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     func hello() {
         let ccc = [
             1, 2,
-            3, 4,
+            3, 4, 5
         ]
     }
 
@@ -50,25 +50,6 @@ extension ViewController {
     }
 
     func yaaa2() {
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
-        print("")
         print("")
     }
 }
@@ -106,6 +87,7 @@ class Yaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa {
                     if true {
                         if true {
                             if true {}
+                            else {}
                         }
                     }
                 }

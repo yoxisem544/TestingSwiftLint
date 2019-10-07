@@ -1,0 +1,11 @@
+osx_image: xcode10.3
+language: swift
+env:
+  - TOOLSCHAIN=swift
+cache:
+  - vendor
+before_script:
+  - bundle exec danger
+  # - swift build
+  # - swift run danger-swift ci
+  # - swift run danger-swift pr https://github.com/yoxisem544/TestingSwiftLint/pull/1
