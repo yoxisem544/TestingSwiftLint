@@ -1,0 +1,4 @@
+before_script:
+  - swift build
+  - swift run danger-swift pr https://github.com/yoxisem544/TestingSwiftLint/pull/1
+  - swift run danger-swift ci
